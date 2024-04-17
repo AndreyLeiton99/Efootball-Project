@@ -1,5 +1,16 @@
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
+
+
+/*
+
+Se encargará de:
+
+Mostrar la barra de navegación.
+Renderizar el componente correspondiente a la sección que el usuario está viendo (Inicio, Jugadores, Equipos, Estadísticas, Top 5).
+Manejar el estado global de la aplicación, como el jugador o equipo seleccionado.
+
+*/
 
 function App() {
   return (
@@ -7,16 +18,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Inicio del proyecto "Efootball Statistics", bienvenido!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
